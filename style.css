@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* base style */
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* nav design */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-title {
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+.menu-bar {
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    margin: 10px 10px;
+    color: #3A3A3A;
+}
+
+.influencer-detail {
+    display: flex;
+}
+
+/* influencer box design */
+
+.influencer-box {
+    margin-left: 30px;
+}
+
+.influencer-title {
+    font-size: 52px;
+}
+
+.influencer-box {
+    Width: 582px;
+    Height: 270px;
+}
+
+.influencer-para {
+    font-size: 16px;
+}
+
+.button-1 {
+    background-color: #E02C6D;
+    color: #ffffff;
+    border: none;
+    padding: 7px;
+    border-radius: 15px;
+}
+
+/* camera style here  */
+.camera {
+    Width: 440px;
+    Height: 414px;
+}
+
+/* logos design here  */
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 160px;
+    margin-right: 160px;
+
+}
+
+/* ----------------
+Products design here
+---------------------------- */
+
+.products {
+    position: relative;
+    right: 1%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-gap: 20px;
+    padding: 40px;
+
+}
+
+.product-title {
+    text-align: center;
+}
+
+.product {
+    Width: 329px;
+    Height: 476px;
+    border-radius: 5px;
+}
+
+
+.product img {
+    Width: 300px;
+    Height: 256px;
+}
+
+.product-detail {}
+
+.product-name {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.product-info {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+}
+
+.star i {
+    color: orange;
+    margin: 0;
+}
+
+.see-more {}
