@@ -61,6 +61,7 @@ body {
 
 /* camera style here  */
 .camera {
+    background-image: url("images/Circle\ design.svg");
     Width: 440px;
     Height: 414px;
 }
@@ -106,8 +107,6 @@ Products design here
     Height: 256px;
 }
 
-.product-detail {}
-
 .product-name {
     font-size: 28px;
     margin-top: 0;
@@ -130,4 +129,10 @@ Products design here
     margin: 0;
 }
 
-.see-more {}
+.see-more {
+    float: right;
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #ec4444;
+
+}
